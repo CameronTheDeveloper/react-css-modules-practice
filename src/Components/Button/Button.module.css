@@ -5,3 +5,15 @@
     border-radius: 4px;
     border: none;
 }
+
+.primary {
+    composes: btn;
+    color: #FFFFFF;
+    background-color: #6E41E2;
+}
+ 
+.secondary {
+    composes: btn;
+    color: #6E41E2;
+    background-color: #FFFFFF;
+}
